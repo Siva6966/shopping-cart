@@ -83,3 +83,32 @@ REST API design and frontend integration.
 Clean UI/UX and real-world shopping cart flow.
 
 Deployable small-scale e-commerce prototype.
+
+<img width="1434" height="675" alt="image" src="https://github.com/user-attachments/assets/afb352f6-d6f4-4a50-8521-d81e0a25663e" />
+
+<img width="1463" height="809" alt="image" src="https://github.com/user-attachments/assets/fce8feab-48a7-4c76-a2e1-03dfba2a9b16" />
+
+<img width="1506" height="816" alt="image" src="https://github.com/user-attachments/assets/a1853196-8a6f-45ab-ab32-b86801e892f5" />
+
+How to run (two terminals)
+
+Backend
+-------
+cd backend
+mvn spring-boot:run
+
+
+H2 console: http://localhost:8080/h2-console
+ (JDBC URL: jdbc:h2:mem:shopdb)
+
+Frontend
+--------
+cd frontend
+npm install
+npm start
+
+
+Opens http://localhost:3000
+ (auto-proxy to backend).
+
+Thank You!!!
